@@ -1,0 +1,26 @@
+.transationHistory {
+    width: 100%;
+    text-align: center;
+    text-transform: capitalize;
+    border-collapse: collapse;
+}
+
+.transationHistory thead tr {
+    background-color: black;
+    color: white;
+}
+
+.transationHistory th,
+.transationHistory td {
+    padding: 5px;
+}
+
+.transationHistory tr:nth-child(even) {
+    background: #ccc;
+}
+
+table,
+th,
+td {
+    border: 2px solid grey;
+}
